@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício de Fixação: box model</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+     .caixa {
+      color: white;
+      display: inline-block;
+      line-height: 50px;
+      text-align: center;
+      vertical-align: top;
+    }
+
+    .width-and-height {
+      height: 50px;
+      width: 50px;
+    }
+
+    .padding {
+    /* insira aqui um padding de 20px na classe abaixo para aplicá-lo aos itens B, C e D */
+    padding: 20px;
+    text-align: right;
+    }
+
+    .margin {
+    /* insira aqui uma margem de 30px na classe abaixo para aplicá-la aos itens C e D */
+    margin: 30px;
+    border-radius: 30%;
+    vertical-align:top;
+    }
+
+    .border {
+    /* insira aqui uma borda com valor '5px solid black' para aplicá-la ao item D */
+    border-radius: 50%;
+    border: 5px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div class="caixa width-and-height" style="background: #036b52">A</div>
+  <div class="caixa width-and-height padding" style="background: #41197f;">B</div>
+  <div class="caixa width-and-height padding margin" style="background: #444955">C</div>
+  <div class="caixa width-and-height padding margin border" style="background: #3898EC">D</div>
+</body>
+</html>
