@@ -1,13 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+  .google{
+       padding: 0px;
+}
+div{
+    box-sizing: border-box;
+}
 h1{
     text-align: center;
 }
 p{
     text-align: center;
+    padding: 20px 45px;
 }
 ul{
-    text-align: center;
+   background-;
     list-style: none;
+
 }
-li{
+.motivos{
+    margin-left: 90px;
+}
+li{padding: 0px;}
+.mo{
     text-align: center;
+}
+li:hover{
+    background-color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
