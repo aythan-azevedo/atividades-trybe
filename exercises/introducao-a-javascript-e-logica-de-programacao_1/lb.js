@@ -90,15 +90,43 @@ if ( nota >= 50  && nota <=100){
     console.log ("erro ")
 }
 ;
-let num1 = 4;
-let num2 =7;
-let num3=1;
+let num1 = 7;
+let num2 =5;
+let num3=3;
+let num4=11;
+let num5= 45;
+let num6= 23;
 let isEven = false;
+let  is = false ;
 
 if ( num1%2 === 0 || num2%2 === 0 || num3%2===0) {
     isEven= true;
 } ;
 console.log(isEven);
-if ( num1%2 !=0 || num2%2 !=0 || num3%2 !=0) {
-    isEven= true;}
-console.log(isEven);
+if ( num4%2 !=0 || num5%2 !=0 || num6%2 !=0) {
+    is= true;}
+console.log(is);
+
+/* ---------------------------------------------------------------- */
+/* Escreva um programa que se inicie com dois valores em duas variáveis diferentes: o custo de um produto e seu valor de venda. A partir dos valores, calcule quanto de lucro (valor de venda descontado o custo do produto) a empresa terá ao vender mil desses produtos.
+Atente que, sobre o custo do produto, incide um imposto de 20%.
+Seu programa também deve emitir uma mensagem de erro e encerrar caso algum dos seus valores de entrada seja menor que zero.
+O lucro de um produto é o resultado da subtração do valor de venda pelo custo do mesmo, sendo que o imposto de 20% também faz parte do valor de custo.
+valorCustoTotal = valorCusto + impostoSobreOCusto
+lucro = valorVenda - valorCustoTotal (lucro de um produto) */
+
+let custo =20
+let valor = 60;
+
+
+if(custo >= 0 && valor >= 0){
+    let valorImposto = 0.2*custo;
+    let custoTotal = custo+valorImposto;
+    let lucro =  valor- custoTotal ;
+    
+    console.log (lucro*1000);
+}else {
+    console.log("erro o numero não pode ser negativo ")
+}
+
+
