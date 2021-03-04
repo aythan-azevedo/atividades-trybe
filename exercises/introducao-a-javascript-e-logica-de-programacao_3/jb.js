@@ -17,7 +17,7 @@ for(let i=0; i < n2; i++){
     console.log(linha)
 }
 **/
-
+/* 
 let n = 5;
 let symbol = '*';
 let inputLine = '';
@@ -37,3 +37,11 @@ for(let i=0; i < n; i++){
 
 
 }
+
+ */
+
+
+
+
+
+ 
