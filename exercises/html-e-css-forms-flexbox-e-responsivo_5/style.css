@@ -1,0 +1,53 @@
+body {
+padding: 40px;
+font-size: x-large;
+
+}
+h1 {
+
+    font-size:xx-large;
+
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+    padding: 20px 0px;
+}
+
+figure {
+    margin: 20px;
+    padding: 20px 0px;
+}
+@media screen and (min-width :800px){
+
+    body {
+        background-color: green ;
+        font-size:xx-large;
+        max-width :80%
+}
+figure{
+    display: flex;
+   
+    flex-flow: column nowrap;
+
+    justify-content:space-between;
+    align-items: flex-start;
+
+    align-content: flex-start;
+    
+    align-content:flex-end;
+}
+img{
+    max-width: 300px;
+   
+}
+
+figcaption{
+    
+
+}
+
+}
